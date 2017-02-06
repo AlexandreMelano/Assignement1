@@ -1,0 +1,38 @@
+ul.page1
+{
+    border: 2px solid grey;
+    list-style-type: active;
+    width: 500px;
+    background-color:beige;
+    margin:0 auto;
+    overflow: hidden;
+    color: #ddd !important;
+}
+
+ul.page2
+{
+    border: 2px solid grey;
+    list-style-type: active;
+    width: 500px;
+    background-color:burlywood;
+    margin:0 auto;
+    overflow: hidden;
+    color: black !important;
+}
+
+h2.email
+{
+    text-align:center;
+
+}
+
+h1.center
+{
+
+    text-align: center;
+}
+
+.back
+{
+    background-color: cadetblue;
+}
