@@ -1,6 +1,1 @@
-<?php
-include_once ('database.php');
-
-
-<form action="" method="post">
-?>
+<?php header( 'Location: /Mainpage.html' ) ;  ?>
