@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd9598a-fd0a-4285-9083-16e1157c60d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Todolist.html" afterPath="$PROJECT_DIR$/Todolist.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/New Text Document.txt" afterPath="$PROJECT_DIR$/New Text Document.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoDetail.html" afterPath="$PROJECT_DIR$/TodoDetail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todolist.html" afterPath="$PROJECT_DIR$/Todolist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.php" afterPath="$PROJECT_DIR$/database.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,6 +27,16 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="dc6nk60275qpm6@ec2-23-21-169-238.compute-1.amazonaws.com" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -31,12 +44,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="26" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="375">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding>
+                <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+                <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+                <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,18 +67,8 @@
       <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -64,8 +77,8 @@
       <file leaf-file-name="TodoDetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TodoDetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
+            <state relative-caret-position="1825">
+              <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -83,12 +96,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Todolist.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Todolist.html">
+      <file leaf-file-name="Todolist.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Todolist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="53" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="425">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding>
+                <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,7 +111,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stylesheets.css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="1050">
               <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
@@ -135,10 +150,12 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_RegistrationForm.zip/simfatic-RegistrationForm-dc288cf/source/include/membersite_config.php" />
         <option value="$PROJECT_DIR$/Stylesheets.css/style.css" />
         <option value="$PROJECT_DIR$/Mainpage.html" />
-        <option value="$PROJECT_DIR$/Todolist.html" />
         <option value="$PROJECT_DIR$/TodoDetail.html" />
         <option value="$PROJECT_DIR$/deleteTodo.php" />
         <option value="$PROJECT_DIR$/database.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Todolist.html" />
+        <option value="$PROJECT_DIR$/Todolist.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -172,7 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,7 +204,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,6 +216,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -275,7 +293,8 @@
       <workItem from="1486599330503" duration="261000" />
       <workItem from="1487191412648" duration="40000" />
       <workItem from="1487191650762" duration="624000" />
-      <workItem from="1487198844841" duration="4459000" />
+      <workItem from="1487198844841" duration="6090000" />
+      <workItem from="1487614672671" duration="8397000" />
     </task>
     <task id="LOCAL-00001" summary="Added submit button, still much work to be done">
       <created>1486599416918</created>
@@ -295,7 +314,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18387000" />
+    <option name="totallyTimeSpent" value="28415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,8 +331,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21135646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -324,7 +345,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -369,11 +389,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -393,11 +415,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -425,11 +457,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,11 +483,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
           <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="26" selection-end-column="14" />
-          <folding />
+          <folding>
+            <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -481,11 +525,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -505,11 +551,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -537,11 +593,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -561,11 +619,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,11 +645,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -601,11 +671,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -617,11 +697,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -650,45 +732,13 @@
     </entry>
     <entry file="file://E:/HTML/week 11/list.html" />
     <entry file="file://E:/HTML/Assignement 4/Assignement 4.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_RegistrationForm.zip/simfatic-RegistrationForm-dc288cf/source/include/membersite_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/HTML/Inclass3/Class3.html" />
     <entry file="file://E:/HTML/Final HTML/final.html" />
     <entry file="file://E:/HTML/Final HTML/styles/style.css" />
     <entry file="file://$PROJECT_DIR$/Stylesheets.css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="1050">
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TodoDetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="73" column="46" lean-forward="false" selection-start-line="73" selection-start-column="46" selection-end-line="73" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="26" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -703,10 +753,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_RegistrationForm.zip/simfatic-RegistrationForm-dc288cf/source/include/membersite_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="350">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -714,8 +772,44 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1487626033939" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487626033939" expanded="true" signature="450:1397" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:476" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="457:609" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="630:1387" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="651:839" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="914:1097" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1143:1356" ph="..." />
+            <marker date="1487626033939" expanded="true" signature="1172:1312" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TodoDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="73" column="45" lean-forward="false" selection-start-line="73" selection-start-column="45" selection-end-line="73" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1487625979921" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
         </state>
       </provider>
     </entry>

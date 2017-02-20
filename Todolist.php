@@ -1,3 +1,27 @@
+<?php
+$dsn = 'mysql:host=localhost;dbname=todolistdb';
+$userName = "Teacher";
+$password = 123456;
+
+try{
+    $db = new PDO($dsn, $userName, $password);
+}
+catch(PDOException $e){
+    $message = $e->getMessage();
+    echo "An error occured: ".$message;
+}
+
+
+$query = "SELECT * FROM todolists";
+$statement = $db->prepare($query);
+$statement->execute();
+$todolists = $statement->fetchAll();
+$statement->closeCursor();
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +32,31 @@
 <body class="back">
 
 <ul class = "page1"><!-- This is the nav-->
-    <li><a href="index.html">Home</a></li>
-    <li><a href="Todolist.html">Todo List Page</a></li>
+    <li><a href="index.php">Home</a></li>
+    <li><a href="Todolist.php">Todo List Page</a></li>
     <li><a href="TodoDetail.html">Todo Detail List</a></li>
 
 </ul>
 
 <h2 class="email">Todo List</h2>
 <ul class = "page2">
+    <?php
+foreach ($todolists as $todolist){
+    echo '<li>';
+    echo $todolist[0]. " " . $todolist[1] . " " .$todolist[2]. " " .$todolist[3];
+
+
+    }
+
+    ?>
+
+    <input type="checkbox" id="member_news" checked name="member news" value="data"/>
+    <a class="btn btn-primary" href="TodoDetail.html?gameID=41"><i class="fa fa-pencil-square-o"></i> Edit</a>
+    </li>
+</ul>
+
+
+
     <li>
         <label for="member_news">Wake up</label>
         <input type="checkbox" id="member_news" checked name="member news" value="data"/>

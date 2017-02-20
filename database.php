@@ -2,9 +2,9 @@
 // connection string
 
 // cleardb access
-$dsn = 'mysql:host=ca-cdbr-azure-central-a.cloudapp.net;dbname=videogamesdb';
-$userName = 'b6ee96bd470785';
-$password = 'dc381279';
+$dsn = 'heroku pg:psql postgresql-asymmetrical-84387 --app mytodolistalexmelano';
+$userName = 'grnjfagofhvxvc';
+$password = '94326f1215760c1133830addb98d6b2a073a97f9e3842c2d013007b0e90f28b0';
 
 //local db access
 //$dsn = 'mysql:host=localhost;dbname=gamedb';
