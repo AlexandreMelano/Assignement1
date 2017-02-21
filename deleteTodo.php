@@ -1,17 +1,17 @@
 <?php
-include_once('database.php');
+include('database.php');
+$ID = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
+$TODO = filter_input(INPUT_POST, 'TODO', FILTER_VALIDATE_INT);
 
-$ID = $_GET["ID"]; // assigns the gameID from the URL
-
-if($ID != false) {
-    $query = "DELETE FROM todolistdb WHERE Id = :id ";
-    $statement = $db->prepare($query);
-    $statement->bindValue(":ID", $ID);
-    $success = $statement->execute(); // execute the prepared query
-    $statement->closeCursor(); // close off database
-}
-
-// redirect to index page
-header('Location: index.php');
-
+$ID = $_GET['ID'];
+if ($id != false && $TODO != false)
+    {
+        $query = 'DELETE FROM todolistdb
+                  WHERE ID = todolist[0]';
+        $statement = $db->prepare($query);
+        $statement->bindValue(':ID', $ID);
+        $success = $statement->execute();
+        $statement->closeCursor();
+    }
+include('index.php');
 ?>

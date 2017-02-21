@@ -1,4 +1,5 @@
 <?php
+include_once('database.php');
 $dsn = 'mysql:host=localhost;dbname=todolistdb';
 $userName = "Teacher";
 $password = 123456;
@@ -34,7 +35,7 @@ $statement->closeCursor();
 <ul class = "page1"><!-- This is the nav-->
     <li><a href="index.html">Home</a></li>
     <li><a href="Todolist.php">Todo List Page</a></li>
-    <li><a href="TodoDetail.html">Todo Detail List</a></li>
+    <li><a href="TodoDetail.php">Todo Detail List</a></li>
 
 </ul>
 
@@ -48,15 +49,8 @@ $statement->closeCursor();
     <br>
     <input type="submit" value="Submit">
 </form>
-// this is new
-<form action="" method="post">
-    <div class="form-group">
-        <label for=" IDTextField">ID</label>
-        <input type="text" class="form-control" id=" IDTextField" placeholder="ID">
-    </div>
-    <div class="form_group"></div>
 
-</form>// delete if neccessary
+
 </body>
 
 
