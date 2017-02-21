@@ -1,7 +1,7 @@
 <?php
 include_once('database.php'); // include the database connection file
 
-$ID = $_GET["todolist[0]"]; // assigns the gameID from the URL
+$ID = $_GET["ID"]; // assigns the gameID from the URL
 $dsn = 'mysql:host=localhost;dbname=todolistdb';
 $userName = "Teacher";
 $password = 123456;
@@ -13,7 +13,7 @@ catch(PDOException $e){
     $message = $e->getMessage();
     echo "An error occured: ".$message;
 }
-if($todolists == 0) {
+if($ID == 0) {
     $TODO = null;
     $isAddition = 1;
 } else {
@@ -21,9 +21,10 @@ if($todolists == 0) {
 
     $query = "SELECT * FROM todolists WHERE ID = :ID";
     $statement = $db->prepare($query);
+    $statement->bindValue(':ID', $ID);
     $statement->execute();
-    $statement->bindValue(':_id', $ID);
-    $todolists = $statement->fetchAll();
+
+    $ID = $statement->fetchAll();
     $statement->closeCursor();
 
 
@@ -58,17 +59,17 @@ if($todolists == 0) {
                 <div class="form-group">
                     <label for="IDTextField" hidden>ID</label>
                     <input type="hidden" class="form-control" id="IDTextField" name="IDTextField"
-                           placeholder="ID" value="<?php echo $todolists['Id']; ?>">
+                           placeholder="ID" value="<?php echo $todolists['ID']; ?>">
                 </div>
                 <div class="form-group">
                     <label for="NameTextField">Todo Name</label>
                     <input type="text" class="form-control" id="NameTextField"  name="NameTextField"
-                           placeholder="Todo Name" required  value="<?php echo $todolists['Name']; ?>">
+                           placeholder="Todo Name" required  value="<?php echo $todolists['TODO']; ?>">
                 </div>
                 <div class="form-group">
                     <label for="CostTextField">ID</label>
                     <input type="text" class="form-control" id="CostTextField" name="CostTextField"
-                           placeholder="ID" required  value="<?php echo $todolists['Cost']; ?>">
+                           placeholder="ID" required  value="<?php echo $todolists['Notes']; ?>">
                 </div>
                 <input type="hidden" name="isAddition" value="<?php echo $isAddition; ?>">
                 <button type="submit" id="SubmitButton" class="btn btn-primary">Submit</button>

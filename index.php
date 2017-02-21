@@ -13,7 +13,7 @@ catch(PDOException $e){
 }
 
 
-$query = "SELECT * FROM todolists";
+$query = "SELECT * FROM todolist";
 $statement = $db->prepare($query);
 $statement->execute();
 $todolists = $statement->fetchAll();
@@ -41,7 +41,21 @@ $statement->closeCursor();
 
 <h1 class="center"> This is the mainpage</h1>
 
-<form class="formSetting">
+<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+    <fieldset >
+        <legend>Login</legend>
+        <input type='hidden' name='submitted' id='submitted' value='1'/>
+        <label for='username' >UserName*:</label>
+        <input type='text' name='username' id='username'  maxlength="50" />
+        <label for='password' >Password*:</label>
+        <input type='password' name='password' id='password' maxlength="50" />
+        <input type='submit' name='Submit' value='Submit' />
+    </fieldset>
+</form>
+
+
+
+<!--<form class="formSetting">
     User name:<br>
     <input type="text" name="username"><br>
     User password:<br>

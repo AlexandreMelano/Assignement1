@@ -56,7 +56,7 @@ $statement->closeCursor();
             <td><?php echo $todolist[1]?></td>
             <td><?php echo $todolist[2]?></td>
             <td><?php echo$todolist[3]?></td>
-            <td><a class="btn btn-primary" href="TodoDetail.php?<?php echo $todolist ?>">Edit</a></td>
+            <td><a class="btn btn-primary" href="TodoDetail.php?ID=<?php echo $todolist['ID'] ?>">Edit</a></td>
 
 
             <td><a class="btn btn-danger" href="deleteTodo.php">Delete</a></td>
