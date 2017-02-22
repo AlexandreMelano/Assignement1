@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccd9598a-fd0a-4285-9083-16e1157c60d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/connect.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TodoDetail.php" afterPath="$PROJECT_DIR$/TodoDetail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Todolist.php" afterPath="$PROJECT_DIR$/Todolist.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deleteTodo.php" afterPath="$PROJECT_DIR$/deleteTodo.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -54,7 +55,7 @@
       <file leaf-file-name="TodoDetail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TodoDetail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="1650">
               <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
               <folding>
                 <marker date="1487706772278" expanded="true" signature="476:514" ph="SELECT * FRO... todolists" />
@@ -76,14 +77,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleteTodo.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="deleteTodo.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deleteTodo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="425">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
-                <marker date="1487698679476" expanded="true" signature="233:285" ph="DELETE FROM " />
-                <marker date="1487698679476" expanded="true" signature="233:296" ph="DELETE FROM " />
+                <marker date="1487716958577" expanded="true" signature="240:292" ph="DELETE FROM " />
+                <marker date="1487716958577" expanded="true" signature="240:303" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -92,10 +93,10 @@
       <file leaf-file-name="Todolist.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Todolist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="58" column="91" lean-forward="false" selection-start-line="58" selection-start-column="91" selection-end-line="58" selection-end-column="91" />
+            <state relative-caret-position="300">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+                <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
               </folding>
             </state>
           </provider>
@@ -124,21 +125,33 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+            <state relative-caret-position="1075">
+              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding>
-                <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-                <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+                <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+                <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="775">
+              <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+              <folding>
+                <marker date="1487716340570" expanded="true" signature="395:467" ph="SELECT * FRO... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -170,11 +183,13 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_RegistrationForm.zip/simfatic-RegistrationForm-dc288cf/source/include/membersite_config.php" />
         <option value="$PROJECT_DIR$/TodoDetail.html" />
         <option value="$PROJECT_DIR$/database.php" />
-        <option value="$PROJECT_DIR$/deleteTodo.php" />
         <option value="$PROJECT_DIR$/update.php" />
-        <option value="$PROJECT_DIR$/Todolist.php" />
         <option value="$PROJECT_DIR$/TodoDetail.php" />
+        <option value="$PROJECT_DIR$/Todolist.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/connect.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/deleteTodo.php" />
       </list>
     </option>
   </component>
@@ -221,12 +236,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/COMP1006-W2017-Lesson6-master" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -313,7 +328,8 @@
       <workItem from="1487191650762" duration="624000" />
       <workItem from="1487198844841" duration="6090000" />
       <workItem from="1487614672671" duration="29254000" />
-      <workItem from="1487704638607" duration="3363000" />
+      <workItem from="1487704638607" duration="7910000" />
+      <workItem from="1487770654860" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Added submit button, still much work to be done">
       <created>1486599416918</created>
@@ -368,7 +384,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52635000" />
+    <option name="totallyTimeSpent" value="57207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -381,26 +397,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1924" height="1042" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21135646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21135646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990867" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,22 +438,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TodoDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <marker date="1487706772278" expanded="true" signature="476:514" ph="SELECT * FRO... todolists" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Todolist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
           </folding>
         </state>
       </provider>
@@ -463,8 +469,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -482,8 +488,8 @@
         <state relative-caret-position="100">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -503,7 +509,7 @@
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
           </folding>
         </state>
       </provider>
@@ -529,8 +535,8 @@
         <state relative-caret-position="550">
           <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="26" selection-end-column="14" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -548,8 +554,8 @@
         <state relative-caret-position="100">
           <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -569,7 +575,7 @@
         <state relative-caret-position="175">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
           </folding>
         </state>
       </provider>
@@ -595,8 +601,8 @@
         <state relative-caret-position="945">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -614,8 +620,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -635,7 +641,7 @@
         <state relative-caret-position="245">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
           </folding>
         </state>
       </provider>
@@ -661,8 +667,8 @@
         <state relative-caret-position="560">
           <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -682,7 +688,7 @@
         <state relative-caret-position="245">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
           </folding>
         </state>
       </provider>
@@ -708,8 +714,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -729,7 +735,7 @@
         <state relative-caret-position="245">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
           </folding>
         </state>
       </provider>
@@ -767,8 +773,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
@@ -789,17 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteTodo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <marker date="1487698679476" expanded="true" signature="233:285" ph="DELETE FROM " />
-            <marker date="1487698679476" expanded="true" signature="233:296" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -811,19 +806,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Todolist.php">
+    <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="58" column="91" lean-forward="false" selection-start-line="58" selection-start-column="91" selection-end-line="58" selection-end-column="91" />
+        <state relative-caret-position="775">
+          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
           <folding>
-            <marker date="1487706240268" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+            <marker date="1487716340570" expanded="true" signature="395:467" ph="SELECT * FRO... user" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TodoDetail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="1650">
           <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding>
             <marker date="1487706772278" expanded="true" signature="476:514" ph="SELECT * FRO... todolists" />
@@ -831,30 +834,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Todolist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1487713798057" expanded="true" signature="264:287" ph="SELECT * FRO... todolists" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+        <state relative-caret-position="1075">
+          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
           <folding>
-            <marker date="1487707320190" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
-            <marker date="1487707320190" expanded="true" signature="486:505" ph="..." />
+            <marker date="1487716876183" expanded="true" signature="294:316" ph="SELECT * FRO... todolist" />
+            <marker date="1487716876183" expanded="true" signature="486:505" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
+    <entry file="file://$PROJECT_DIR$/deleteTodo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1487716958577" expanded="true" signature="240:292" ph="DELETE FROM " />
+            <marker date="1487716958577" expanded="true" signature="240:303" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>

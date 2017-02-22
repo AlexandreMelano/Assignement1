@@ -33,7 +33,7 @@ $statement->closeCursor();
 
 <body class="back">
 <ul class = "page1"><!-- This is the nav-->
-    <li><a href="index.html">Home</a></li>
+    <li><a href="index.php">Home</a></li>
     <li><a href="Todolist.php">Todo List Page</a></li>
     <li><a href="TodoDetail.php">Todo Detail List</a></li>
 
@@ -41,7 +41,7 @@ $statement->closeCursor();
 
 <h1 class="center"> This is the mainpage</h1>
 
-<form id='login' action='login.php' method='post' accept-charset='UTF-8'>
+<form id='login' action='Todolist.php' method='post' accept-charset='UTF-8'>
     <fieldset >
         <legend>Login</legend>
         <input type='hidden' name='submitted' id='submitted' value='1'/>

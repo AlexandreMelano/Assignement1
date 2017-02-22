@@ -3,7 +3,7 @@ include('database.php');
 $ID = filter_input(INPUT_POST, 'id', FILTER_VALIDATE_INT);
 $TODO = filter_input(INPUT_POST, 'TODO', FILTER_VALIDATE_INT);
 
-$ID = $_GET['ID'];
+$todolists = $_GET['ID'];
 if ($id != false && $TODO != false)
     {
         $query = 'DELETE FROM todolistdb
